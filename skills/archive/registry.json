@@ -1,0 +1,15 @@
+{
+  "registry_schema_version": 1,
+  "note": "Archived verification Skill exactly as materialized for the paper's open-weight verifier ablation (experiments/05_verifier_skill_ablation/results/paper_pilot100/*/prompts/with_skill.txt). The current release pins psc-verify-v1@1.2.0 in ../registry.json.",
+  "skills": {
+    "verification": {
+      "name": "psc-verify-v1",
+      "version": "1.1.0",
+      "path": "psc-verify-v1-1.1.0",
+      "instruction": "SKILL.md",
+      "resources": {
+        "domain_rules": "references/equivalence-rules.md"
+      }
+    }
+  }
+}

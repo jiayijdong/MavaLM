@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use MavaLM, please cite the paper."
+title: "MavaLM: In Search of a Verifiable Automated Database Harness for AI Scientists"
+type: software
+authors:
+  - name: "MavaLM authors"
+repository-code: "https://github.com/jiayijdong/MavaLM"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-11
+preferred-citation:
+  type: article
+  title: "MavaLM: In Search of a Verifiable Automated Database Harness for AI Scientists"
+  authors:
+    - name: "Anonymous Author(s)"
+  year: 2026
+  notes: "Under review (ACL Rolling Review / NAACL 2027). Author list and venue to be filled at camera-ready."

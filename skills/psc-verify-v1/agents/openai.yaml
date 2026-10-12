@@ -1,0 +1,4 @@
+interface:
+  display_name: "PSC Verification v1.2"
+  short_description: "Verify PSC records with deterministic exact matching"
+  default_prompt: "Use $psc-verify-v1 to verify PSC field pairs against an expert reference."

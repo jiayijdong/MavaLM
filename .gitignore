@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Caches created by figure scripts on HPC login nodes
+.matplotlib/
+
+# Scheduler logs and caches
+*.out
+.cache/
+
+# Secrets
+.env

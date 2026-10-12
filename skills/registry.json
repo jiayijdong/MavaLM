@@ -1,0 +1,25 @@
+{
+  "registry_schema_version": 1,
+  "skills": {
+    "annotation": {
+      "name": "psc-annotate-v1",
+      "version": "1.0.0",
+      "path": "psc-annotate-v1",
+      "instruction": "SKILL.md",
+      "resources": {
+        "schema": "references/psc-record.schema.json",
+        "domain_rules": "references/field-guide.md"
+      }
+    },
+    "verification": {
+      "name": "psc-verify-v1",
+      "version": "1.2.0",
+      "path": "psc-verify-v1",
+      "instruction": "SKILL.md",
+      "resources": {
+        "domain_rules": "references/equivalence-rules.md",
+        "benchmark_compatibility": "references/benchmark-compatibility.md"
+      }
+    }
+  }
+}

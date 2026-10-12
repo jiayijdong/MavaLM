@@ -1,0 +1,4 @@
+interface:
+  display_name: "PSC Annotation v1"
+  short_description: "Extract auditable PSC records from full papers"
+  default_prompt: "Use $psc-annotate-v1 to extract a champion-device PSC record from the paper and supplement."

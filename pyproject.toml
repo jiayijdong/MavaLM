@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mavalm"
+version = "1.0.0"
+description = "MavaLM: a verifiable automated database harness for AI scientists (code, Skills, data, and experiments)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "MavaLM authors"}]
+keywords = ["perovskite", "benchmark", "LLM", "verification", "scientific records", "AI scientist"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+  "pypdf>=5,<7",
+]
+
+[project.optional-dependencies]
+# Live annotation / verification with hosted models (LangChain + LangGraph adapters).
+agents = [
+  "langchain>=1.0,<2.0",
+  "langchain-openai>=0.3,<2.0",
+  "langgraph>=1.0,<2.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["mavalm*"]
